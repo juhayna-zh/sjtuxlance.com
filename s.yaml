@@ -3,7 +3,7 @@ name: xlance-demo-showcase
 access: "default"
 
 vars:
-  region: "cn-hangzhou"
+  region: "cn-shanghai"
   functionName: "sjtuxlance-com"
   service:
     name: "website"
