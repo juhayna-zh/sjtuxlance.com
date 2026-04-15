@@ -4,7 +4,7 @@ A simple, configurable demo showcase website for X-LANCE Lab projects.
 
 ## Configuration
 
-All content is managed through `docs/config.yaml`. Simply add your projects following this structure:
+All content is managed through [`docs/config.yaml`](docs/config.yaml). Simply add your projects following this structure:
 
 ```yaml
 categories:
