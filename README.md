@@ -2,14 +2,9 @@
 
 A simple, configurable demo showcase website for X-LANCE Lab projects.
 
-## Quick Start
-
-1. Open `index.html` in your browser
-2. Edit `config.yaml` to add or modify projects
-
 ## Configuration
 
-All content is managed through `config.yaml`. Simply add your projects following this structure:
+All content is managed through `code/config.yaml`. Simply add your projects following this structure:
 
 ```yaml
 categories:
@@ -20,20 +15,25 @@ categories:
         description: Brief description of your project
 ```
 
-### Features
+Once the configuration is modified and pushed to the repository, the website (https://sjtuxlance.com/) will automatically sync the new content within 5 minutes. If the content is not synced as expected, please contact me in WeChat.
 
-- HTML tags supported in `name` and `description` fields (e.g., `<b>bold</b>`, `<i>italic</i>`)
-- Emoji supported in category names
-- Responsive design for desktop and mobile
-- Clean academic style
+## Local Development
 
-## Example
+### Option 1: Python HTTP Server (Recommended)
 
-```yaml
-categories:
-  - name: Interactive Demo 🎮
-    projects:
-      - name: <b>My Project</b>
-        link: https://example.com/demo
-        description: This is an <i>amazing</i> project demo.
+```bash
+cd code
+python -m http.server 8080
 ```
+
+Then open `http://localhost:8080` in your browser.
+
+### Option 2: Node.js Server
+
+```bash
+cd code
+node server.js
+```
+
+Then open `http://localhost:8080` in your browser.
+

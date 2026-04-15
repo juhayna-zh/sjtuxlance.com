@@ -1,0 +1,13 @@
+{
+  "name": "xlance-demo-showcase",
+  "version": "1.0.0",
+  "description": "X-LANCE Lab Demo Showcase",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {},
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}

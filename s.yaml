@@ -1,0 +1,48 @@
+edition: 1.0.0
+name: xlance-demo-showcase
+access: "default"
+
+vars:
+  region: "cn-hangzhou"
+  functionName: "sjtuxlance-com"
+  service:
+    name: "website"
+    description: 'X-LANCE Lab Demo Showcase'
+
+services:
+  framework:
+    component: fc
+    props:
+      region: ${vars.region}
+      service: ${vars.service}
+      function:
+        name: ${vars.functionName}
+        description: 'X-LANCE Lab Demo Showcase Static Site'
+        codeUri: './code'
+        runtime: custom
+        timeout: 60
+        memorySize: 512
+        caPort: 8080
+        layers:
+          - acs:fc:${vars.region}:official:layers/Nodejs16/versions/1
+        environmentVariables:
+          PATH: /opt/nodejs16/bin:/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+        customRuntimeConfig:
+          command:
+            - node
+            - server.js
+      triggers:
+        - name: httpTrigger
+          type: http
+          config:
+            authType: anonymous
+            methods:
+              - GET
+              - POST
+              - HEAD
+              - OPTIONS
+      customDomains:
+        - domainName: auto
+          protocol: HTTP
+          routeConfigs:
+            - path: '/*'
