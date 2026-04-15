@@ -4,7 +4,7 @@ A simple, configurable demo showcase website for X-LANCE Lab projects.
 
 ## Configuration
 
-All content is managed through `code/config.yaml`. Simply add your projects following this structure:
+All content is managed through `docs/config.yaml`. Simply add your projects following this structure:
 
 ```yaml
 categories:
@@ -22,7 +22,7 @@ Once the configuration is modified and pushed to the repository, the website (ht
 ### Option 1: Python HTTP Server (Recommended)
 
 ```bash
-cd code
+cd docs
 python -m http.server 8080
 ```
 
@@ -31,7 +31,7 @@ Then open `http://localhost:8080` in your browser.
 ### Option 2: Node.js Server
 
 ```bash
-cd code
+cd docs
 node server.js
 ```
 

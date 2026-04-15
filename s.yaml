@@ -18,7 +18,7 @@ services:
       function:
         name: ${vars.functionName}
         description: 'X-LANCE Lab Demo Showcase Static Site'
-        codeUri: './code'
+        codeUri: './docs'
         runtime: custom
         timeout: 60
         memorySize: 512
