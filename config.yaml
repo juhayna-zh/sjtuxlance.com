@@ -15,15 +15,15 @@ categories:
     projects:
       - name: X-Talk
         link: https://xtalk.sjtuxlance.com
-        description: <b>Open-source full-duplex cascaded spoken dialogue system framework</b>.
+        description: Open-source full-duplex cascaded spoken dialogue system framework.
       
       - name: X-VC
         link: https://x-vc.sjtuxlance.com
-        description: Realtime Voice Conversion
+        description: Realtime voice conversion demo.
       
       - name: Interactive ASR 
         link: https://i-asr.sjtuxlance.com
-        description: 🎙️ Long-audio friendly interactive ASR correction
+        description: Long-audio friendly interactive ASR correction.
 
       - name: SoulX-Duplug
         link: https://soulx-duplug.sjtuxlance.com
@@ -31,34 +31,34 @@ categories:
 
       - name: Live Translator
         link: https://translate.sjtuxlance.com
-        description: Realtime Speech Translation Demo
+        description: Realtime speech translation demo.
         
       - name: Audio scene studio
         link: https://xagent.sjtuxlance.com
-        description: Turn a scene, dialogue, song idea, or sound-design brief into a mixed audio result with inspectable pipeline artifacts.
+        description: Turn scenes, dialogues, or sound ideas into mixed audio with inspectable artifacts.
 
   - name: HF Space Demo 🤗
     projects:
       - name: Habibi TTS
         link: https://huggingface.co/spaces/chenxie95/Habibi-TTS
-        description: "Habibi: Laying the Open-Source Foundation of Unified-Dialectal Arabic Speech Synthesis."
+        description: Unified-dialectal Arabic speech synthesis.
       
       - name: Resonate
         link: https://huggingface.co/spaces/chenxie95/Resonate
-        description: Generate realistic audio clips from text descriptions. Create diverse soundscapes and audio effects through natural language.
+        description: Generate realistic audio clips from text descriptions.
         
       - name: Cross-Lingual F5-TTS Space
         link: https://huggingface.co/spaces/chenxie95/Cross-Lingual_F5-TTS_Space
-        description: Cross-Lingual F5-TTS.
+        description: Cross-lingual F5-TTS demo.
       
       - name: AudioControlNet
         link: https://huggingface.co/spaces/chenxie95/AudioControlNet
-        description: Fine-grained controllable text-to-audio generation system. Precise control over audio characteristics and content generation.
+        description: Fine-grained controllable text-to-audio generation.
       
       - name: X-LANCE Music Source Separation
         link: https://huggingface.co/spaces/chenxie95/xlance-msr
-        description: Separate instrument tracks from an audio file. Extract vocals, drums, bass, and other instruments from mixed audio.
+        description: Separate vocals, drums, bass, and instruments from mixed audio.
       
       - name: IMTalker
         link: https://huggingface.co/spaces/chenxie95/IMTalker
-        description: Generate talking face videos from images and audio. Create realistic lip-synced video content from static portraits.
+        description: Generate lip-synced talking face videos from images and audio.
