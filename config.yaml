@@ -40,16 +40,16 @@ categories:
   - name: HF Space Demo 🤗
     projects:
       - name: Habibi TTS
-        link: https://huggingface.co/spaces/chenxie95/Habibi
+        link: https://huggingface.co/spaces/chenxie95/Habibi-TTS
         description: F5-TTS online demo for development and testing. Generate natural speech from text input with advanced neural synthesis.
       
       - name: Resonate
         link: https://huggingface.co/spaces/chenxie95/Resonate
         description: Generate realistic audio clips from text descriptions. Create diverse soundscapes and audio effects through natural language.
         
-      - name: DCCRN Speech Enhancement
-        link: https://huggingface.co/spaces/chenxie95/DCCRN
-        description: Enhance noisy speech recordings into clear audio using deep complex convolution recurrent network technology.
+      - name: Cross-Lingual F5-TTS Space
+        link: https://huggingface.co/spaces/chenxie95/Cross-Lingual_F5-TTS_Space
+        description: Cross-Lingual F5-TTS.
       
       - name: AudioControlNet
         link: https://huggingface.co/spaces/chenxie95/AudioControlNet
