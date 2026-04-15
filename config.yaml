@@ -41,7 +41,7 @@ categories:
     projects:
       - name: Habibi TTS
         link: https://huggingface.co/spaces/chenxie95/Habibi-TTS
-        description: F5-TTS online demo for development and testing. Generate natural speech from text input with advanced neural synthesis.
+        description: "Habibi: Laying the Open-Source Foundation of Unified-Dialectal Arabic Speech Synthesis."
       
       - name: Resonate
         link: https://huggingface.co/spaces/chenxie95/Resonate
