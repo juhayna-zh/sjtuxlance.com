@@ -57,7 +57,7 @@ categories:
       
       - name: X-LANCE Music Source Separation
         link: https://huggingface.co/spaces/chenxie95/xlance-msr
-        description: Separate vocals, drums, bass, and instruments from mixed audio.
+        description: Separate vocals, drums, bass, piano, guitar and instruments from mixed audio.
       
       - name: IMTalker
         link: https://huggingface.co/spaces/chenxie95/IMTalker
