@@ -1,0 +1,64 @@
+# 配置说明：
+# 1. categories: 大栏目列表
+#    - name: 栏目名称（支持 emoji）
+#      projects: 该栏目下的项目列表
+#        - name: 项目名称（支持 HTML 标签，如 <b>粗体</b>）
+#          link: 项目链接（完整 URL）
+#          description: 项目简介（支持 HTML 标签，如 <i>斜体</i>）
+#
+# 2. 添加新项目：在对应栏目的 projects 下添加新的项目条目
+# 3. 添加新栏目：在 categories 下添加新的栏目，包含 name 和 projects
+# 4. HTML 标签示例：<b>加粗</b>、<i>斜体</i>、<em>强调</em>、<br>换行
+
+categories:
+  - name: Interactive Demo 🗣️
+    projects:
+      - name: X-Talk
+        link: https://xtalk.sjtuxlance.com
+        description: <b>Open-source full-duplex cascaded spoken dialogue system framework</b>.
+      
+      - name: X-VC
+        link: https://x-vc.sjtuxlance.com
+        description: Realtime Voice Conversion
+      
+      - name: Interactive ASR 
+        link: https://i-asr.sjtuxlance.com
+        description: 🎙️ Long-audio friendly interactive ASR correction
+
+      - name: SoulX-Duplug
+        link: https://soulx-duplug.sjtuxlance.com
+        description: SoulX-Duplug demo.
+
+      - name: Live Translator
+        link: https://translate.sjtuxlance.com
+        description: Realtime Speech Translation Demo
+        
+      - name: Audio scene studio
+        link: https://xagent.sjtuxlance.com
+        description: Turn a scene, dialogue, song idea, or sound-design brief into a mixed audio result with inspectable pipeline artifacts.
+
+  - name: HF Space Demo 🤗
+    projects:
+      - name: Habibi TTS
+        link: https://huggingface.co/spaces/chenxie95/Habibi
+        description: F5-TTS online demo for development and testing. Generate natural speech from text input with advanced neural synthesis.
+      
+      - name: Resonate
+        link: https://huggingface.co/spaces/chenxie95/Resonate
+        description: Generate realistic audio clips from text descriptions. Create diverse soundscapes and audio effects through natural language.
+        
+      - name: DCCRN Speech Enhancement
+        link: https://huggingface.co/spaces/chenxie95/DCCRN
+        description: Enhance noisy speech recordings into clear audio using deep complex convolution recurrent network technology.
+      
+      - name: AudioControlNet
+        link: https://huggingface.co/spaces/chenxie95/AudioControlNet
+        description: Fine-grained controllable text-to-audio generation system. Precise control over audio characteristics and content generation.
+      
+      - name: X-LANCE Music Source Separation
+        link: https://huggingface.co/spaces/chenxie95/xlance-msr
+        description: Separate instrument tracks from an audio file. Extract vocals, drums, bass, and other instruments from mixed audio.
+      
+      - name: IMTalker
+        link: https://huggingface.co/spaces/chenxie95/IMTalker
+        description: Generate talking face videos from images and audio. Create realistic lip-synced video content from static portraits.
