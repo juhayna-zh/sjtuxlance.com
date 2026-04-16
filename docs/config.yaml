@@ -20,6 +20,10 @@ categories:
       - name: X-VC
         link: https://x-vc.sjtuxlance.com
         description: Realtime voice conversion demo.
+
+      - name: Stream ASR
+        link: https://stream-asr.sjtuxlance.com
+        description: Stream ASR demo.
       
       - name: Interactive ASR 
         link: https://i-asr.sjtuxlance.com
